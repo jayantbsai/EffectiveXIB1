@@ -13,4 +13,8 @@
 
 @interface ViewController : UIViewController
 
+@property (nonatomic, retain) IBOutlet UILabel *label;
+@property (nonatomic, retain) IBOutlet UIButton *button;
+@property (nonatomic, retain) IBOutlet UIImageView *imageview;
+
 @end

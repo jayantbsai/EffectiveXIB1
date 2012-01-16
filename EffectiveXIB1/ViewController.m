@@ -13,6 +13,8 @@
 
 @implementation ViewController
 
+@synthesize label, button, imageview;
+
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
 {
     return YES;
